@@ -11,6 +11,7 @@
 		0A22EFB92A8399D5000C4DDF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A22EFB82A8399D5000C4DDF /* ContentView.swift */; };
 		0A22EFBB2A8399D9000C4DDF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A22EFBA2A8399D9000C4DDF /* Assets.xcassets */; };
 		0A22EFBE2A8399D9000C4DDF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A22EFBD2A8399D9000C4DDF /* Preview Assets.xcassets */; };
+		0A22EFC62A84670A000C4DDF /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A22EFC52A84670A000C4DDF /* Home.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		0A22EFB82A8399D5000C4DDF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		0A22EFBA2A8399D9000C4DDF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0A22EFBD2A8399D9000C4DDF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		0A22EFC52A84670A000C4DDF /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +53,7 @@
 		0A22EFB52A8399D5000C4DDF /* SimpleModal */ = {
 			isa = PBXGroup;
 			children = (
+				0A22EFC42A846701000C4DDF /* View */,
 				0A22EFB62A8399D5000C4DDF /* SimpleModalApp.swift */,
 				0A22EFB82A8399D5000C4DDF /* ContentView.swift */,
 				0A22EFBA2A8399D9000C4DDF /* Assets.xcassets */,
@@ -65,6 +68,14 @@
 				0A22EFBD2A8399D9000C4DDF /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		0A22EFC42A846701000C4DDF /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0A22EFC52A84670A000C4DDF /* Home.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,6 +149,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0A22EFB92A8399D5000C4DDF /* ContentView.swift in Sources */,
+				0A22EFC62A84670A000C4DDF /* Home.swift in Sources */,
 				0A22EFB72A8399D5000C4DDF /* SimpleModalApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -280,6 +292,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -309,6 +322,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
